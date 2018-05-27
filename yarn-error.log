@@ -1,0 +1,34 @@
+Arguments: 
+  /Users/ethan/.nvm/versions/node/v8.7.0/bin/node /usr/local/Cellar/yarn/1.2.1/libexec/bin/yarn.js add socket.io
+
+PATH: 
+  /bin:/Users/ethan/.nvm/versions/node/v8.7.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Users/ethan/.config/yarn/global/node_modules/.bin:/Users/ethan/phabricator/arcanist/bin/
+
+Yarn version: 
+  1.2.1
+
+Node version: 
+  8.7.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "chatroom",
+    "version": "0.0.1",
+    "description": "Minimalist multiroom chat server"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.yarnpkg.com/after/-/after-0.8.2.tgz: ETIMEDOUT
+      at Timeout._onTimeout (/usr/local/Cellar/yarn/1.2.1/libexec/lib/cli.js:123675:19)
+      at ontimeout (timers.js:471:11)
+      at tryOnTimeout (timers.js:306:5)
+      at Timer.listOnTimeout (timers.js:266:5)

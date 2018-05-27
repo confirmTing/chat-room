@@ -1,0 +1,60 @@
+* {
+  font-size: 14px;
+  color: #333;
+  box-sizing: border-box;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 50px;
+}
+
+a {
+  color: #00b7ff;
+}
+
+#content {
+  width: 800px;
+  margin: 0 auto;
+}
+
+#room {
+  margin-bottom: 1em;
+  background-color: #ddd;
+}
+
+#messages {
+  margin-bottom: 1em;
+  margin-right: 10px;
+  width: 690px;
+  height: 300px;
+  overflow: auto;
+  background-color: #eee;
+}
+
+#room-list {
+  float: right;
+  width: 100px;
+  height: 300px;
+  overflow: auto;
+}
+
+#room-list div {
+  border-bottom: 1px solid #eee;
+}
+
+#room-list div:hover {
+  background-color: #ddd;
+}
+
+#send-message {
+  width: 700px;
+  margin-bottom: 1em;
+  margin-right: 1em;
+}
+
+#help {
+  font: 10px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
